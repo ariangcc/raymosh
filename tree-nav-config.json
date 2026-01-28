@@ -1,0 +1,192 @@
+{
+  "root": [
+    {
+      "label": "Mentorium",
+      "shortcut": "m",
+      "children": [
+        {
+          "label": "mentorium-ai-agents",
+          "shortcut": "maa",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "maagh",
+              "action": { "type": "link", "value": "https://github.com/moshe-exe/mrr-base" }
+            }
+          ]
+        },
+        {
+          "label": "mentorium-ai-backend",
+          "shortcut": "mbe",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "mbegh",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-backend" }
+            }
+          ]
+        },
+        {
+          "label": "mentorium-ai-cloud",
+          "shortcut": "mcl",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "mclgh",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-cloud" }
+            }
+          ]
+        },
+        {
+          "label": "mentorium-ai-docs",
+          "shortcut": "mdo",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "mdogh",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-docs" }
+            }
+          ]
+        },
+        {
+          "label": "mentorium-ai-frontend",
+          "shortcut": "mfe",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "mfegh",
+              "action": { "type": "link", "value": "https://github.com/mentoriumai/mentorium-ai-frontend" }
+            }
+          ]
+        },
+        {
+          "label": "mentorium-ai-staff-portal",
+          "shortcut": "msp",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "mspgh",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-staff-portal" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Agentman",
+      "shortcut": "a",
+      "children": [
+        {
+          "label": "agentman-agent-os",
+          "shortcut": "aos",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "aosgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-agent-os" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-airflow-dags",
+          "shortcut": "aai",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "aaigh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-airflow-dags" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-autotest-api",
+          "shortcut": "aap",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "aapgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-autotest-api" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-autotest-mf",
+          "shortcut": "amf",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "amfgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-autotest-mf" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-cloud-functions",
+          "shortcut": "acf",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "acfgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-cloud-functions" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-cloud-jobs",
+          "shortcut": "acj",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "acjgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-cloud-jobs" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-config",
+          "shortcut": "acg",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "acggh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-config" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-mcp-ecom-server",
+          "shortcut": "amc",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "amcgh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-mcp-ecom-server" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-medman-desktop",
+          "shortcut": "ame",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "amegh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-medman-desktop" }
+            }
+          ]
+        },
+        {
+          "label": "agentman-platform-app",
+          "shortcut": "apa",
+          "children": [
+            {
+              "label": "GitHub",
+              "shortcut": "apagh",
+              "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-platform-app" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
