@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { List, ActionPanel, Action, getPreferenceValues, showToast, Toast, open, closeMainWindow } from "@raycast/api";
+import { List, ActionPanel, Action, getPreferenceValues, showToast, Toast, open, closeMainWindow, Icon } from "@raycast/api";
 import { readFileSync } from "fs";
 import { exec } from "child_process";
 
@@ -167,9 +167,9 @@ export default function Command() {
               <List.Item
                 key={node.shortcut}
                 id={node.shortcut}
+                icon={isLeaf ? (node.action?.type === "link" ? Icon.Globe : Icon.Terminal) : Icon.ChevronRight}
                 title={node.label}
                 subtitle={`[${node.shortcut}]`}
-                accessories={[{ text: isLeaf ? (node.action?.type === "link" ? "↗" : "⚡") : "→" }]}
                 actions={
                   <ActionPanel>
                     {isLeaf && node.action && (
@@ -186,8 +186,8 @@ export default function Command() {
           {currentNodes.length === 0 && canExecute && (
             <List.Item
               key="execute"
+              icon={exactMatch!.action!.type === "link" ? Icon.Globe : Icon.Terminal}
               title={`Press Enter to ${exactMatch!.action!.type === "link" ? "open link" : "run command"}`}
-              accessories={[{ text: exactMatch!.action!.type === "link" ? "↗" : "⚡" }]}
               actions={
                 <ActionPanel>
                   <Action
@@ -208,9 +208,9 @@ export default function Command() {
               <List.Item
                 key={node.shortcut}
                 id={node.shortcut}
+                icon={isLeaf ? (node.action?.type === "link" ? Icon.Globe : Icon.Terminal) : Icon.ChevronRight}
                 title={node.label}
                 subtitle={`[${node.shortcut}]`}
-                accessories={[{ text: isLeaf ? (node.action?.type === "link" ? "↗" : "⚡") : "→" }]}
                 actions={
                   <ActionPanel>
                     {isLeaf && node.action && (

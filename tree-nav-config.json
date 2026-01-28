@@ -12,6 +12,26 @@
               "label": "GitHub",
               "shortcut": "maagh",
               "action": { "type": "link", "value": "https://github.com/moshe-exe/mrr-base" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "maaid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-agents" }
+            },
+            {
+              "label": "Actions",
+              "shortcut": "maaac",
+              "action": { "type": "link", "value": "https://github.com/moshe-exe/mrr-base/actions" }
+            },
+            {
+              "label": "Cloud Run DEV",
+              "shortcut": "maacrd",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-agents-dev/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-dev" }
+            },
+            {
+              "label": "Cloud Run PROD",
+              "shortcut": "maacrp",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-agents-prod/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-prod" }
             }
           ]
         },
@@ -23,6 +43,26 @@
               "label": "GitHub",
               "shortcut": "mbegh",
               "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-backend" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "mbeid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-backend" }
+            },
+            {
+              "label": "Actions",
+              "shortcut": "mbeac",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-backend/actions" }
+            },
+            {
+              "label": "Cloud Run DEV",
+              "shortcut": "mbecrd",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-backend-dev/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-dev" }
+            },
+            {
+              "label": "Cloud Run PROD",
+              "shortcut": "mbecrp",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-backend-prod/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-prod" }
             }
           ]
         },
@@ -34,6 +74,16 @@
               "label": "GitHub",
               "shortcut": "mclgh",
               "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-cloud" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "mclid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-cloud" }
+            },
+            {
+              "label": "Actions",
+              "shortcut": "mclac",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-cloud/actions" }
             }
           ]
         },
@@ -45,6 +95,11 @@
               "label": "GitHub",
               "shortcut": "mdogh",
               "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-docs" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "mdoid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-docs" }
             }
           ]
         },
@@ -56,6 +111,26 @@
               "label": "GitHub",
               "shortcut": "mfegh",
               "action": { "type": "link", "value": "https://github.com/mentoriumai/mentorium-ai-frontend" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "mfeid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-frontend" }
+            },
+            {
+              "label": "Actions",
+              "shortcut": "mfeac",
+              "action": { "type": "link", "value": "https://github.com/mentoriumai/mentorium-ai-frontend/actions" }
+            },
+            {
+              "label": "Cloud Run DEV",
+              "shortcut": "mfecrd",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-frontend-dev/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-dev" }
+            },
+            {
+              "label": "Cloud Run PROD",
+              "shortcut": "mfecrp",
+              "action": { "type": "link", "value": "https://console.cloud.google.com/run/detail/us-central1/mentorium-ai-frontend-prod/revisions?authuser=2&inv=1&invt=Abr9Ow&project=mentorium-ai-prod" }
             }
           ]
         },
@@ -67,6 +142,16 @@
               "label": "GitHub",
               "shortcut": "mspgh",
               "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-staff-portal" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "mspid",
+              "action": { "type": "command", "value": "zed ~/Repositories/mentorium-ai-staff-portal" }
+            },
+            {
+              "label": "Actions",
+              "shortcut": "mspac",
+              "action": { "type": "link", "value": "https://github.com/MentoriumAI/mentorium-ai-staff-portal/actions" }
             }
           ]
         }
@@ -84,6 +169,11 @@
               "label": "GitHub",
               "shortcut": "aosgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-agent-os" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "aosid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-agent-os" }
             }
           ]
         },
@@ -95,6 +185,11 @@
               "label": "GitHub",
               "shortcut": "aaigh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-airflow-dags" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "aaiid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-airflow-dags" }
             }
           ]
         },
@@ -106,6 +201,11 @@
               "label": "GitHub",
               "shortcut": "aapgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-autotest-api" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "aapid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-autotest-api" }
             }
           ]
         },
@@ -117,6 +217,11 @@
               "label": "GitHub",
               "shortcut": "amfgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-autotest-mf" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "amfid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-autotest-mf" }
             }
           ]
         },
@@ -128,6 +233,11 @@
               "label": "GitHub",
               "shortcut": "acfgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-cloud-functions" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "acfid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-cloud-functions" }
             }
           ]
         },
@@ -139,6 +249,11 @@
               "label": "GitHub",
               "shortcut": "acjgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-cloud-jobs" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "acjid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-cloud-jobs" }
             }
           ]
         },
@@ -150,6 +265,11 @@
               "label": "GitHub",
               "shortcut": "acggh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-config" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "acgid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-config" }
             }
           ]
         },
@@ -161,6 +281,11 @@
               "label": "GitHub",
               "shortcut": "amcgh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-mcp-ecom-server" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "amcid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-mcp-ecom-server" }
             }
           ]
         },
@@ -172,6 +297,11 @@
               "label": "GitHub",
               "shortcut": "amegh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-medman-desktop" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "ameid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-medman-desktop" }
             }
           ]
         },
@@ -183,6 +313,11 @@
               "label": "GitHub",
               "shortcut": "apagh",
               "action": { "type": "link", "value": "https://github.com/ChainOfAgents/agentman-platform-app" }
+            },
+            {
+              "label": "IDE",
+              "shortcut": "apaid",
+              "action": { "type": "command", "value": "zed ~/Repositories/agentman-platform-app" }
             }
           ]
         }
